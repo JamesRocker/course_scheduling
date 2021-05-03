@@ -1,0 +1,65 @@
+
+main {
+    /* height: 100vh; */
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.name-container, .color-code-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.name-container > li, .color-code-container > li {
+    margin-right: 10px;
+}
+.name-container a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.schedules-container {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.schedules-container > div {
+    margin: 10px;
+}
+
+/* for table  */
+table {
+    /* width: 100%;
+    table-layout: fixed; */
+    height: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 1px;
+    font-size: 0.9em;
+    width: 70px;
+}
+
+/* phone and small tablet */
+@media only screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        table-layout: fixed;
+    }
+}

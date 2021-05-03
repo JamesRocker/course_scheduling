@@ -1,0 +1,48 @@
+body {
+    font: normal 18px/1.5 "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+header {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid black;
+    z-index: 1;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    text-align: center;
+}
+
+.main-container {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 16px 16px;
+    border: 1px solid lightcyan;
+    background-color: lightseagreen;
+    color: #f2f2f2;
+    border-radius: 2px;
+
+    width: 200px;
+    text-align: center;
+
+}
+.btn:hover {
+    cursor:pointer;
+}

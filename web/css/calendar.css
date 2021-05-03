@@ -1,0 +1,155 @@
+body {
+    font: normal 18px/1.5 "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+header {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid black;
+    z-index: 1;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+  
+.container * {
+    box-sizing: border-box;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* .flex-child {
+    border: 2px solid yellow;
+}   */
+
+.flex-child:first-child {
+    flex: 2;
+    margin-right: 20px;
+    height: 82vh;
+    overflow-y: auto;
+} 
+
+.flex-child:last-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+
+
+/*** for calendar ***/
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 1px;
+    font-size: 0.9em;
+}
+
+/*** right hand side ***/
+
+.choices-label-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.choices {
+    flex: 1;
+    /* border: 2px solid red; */
+    max-height: 64vh;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}  
+
+.time-blocks {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time-blocks-child:nth-child(1) {
+    flex: 0;
+}
+
+.time-blocks-child:nth-child(2) {
+    flex: 1;
+}
+.time-blocks-child:nth-child(3) {
+    flex: 0;
+}
+
+input[type=checkbox] {
+    transform: scale(1.3);
+}
+
+.overlapped {
+    opacity: 0.2;
+}
+
+.colored-slot {
+    background-color: lightcoral;
+    border: none;
+}
+
+/*** for submit button ***/
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn {
+    margin-top: 5px;
+    margin-left: auto;
+    padding: 3px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+}
+.submit-btn:hover {
+    cursor:pointer;
+}
+
+
+
+/* phone */
+@media only screen and (max-width: 425px) {
+    table td, table th {
+        padding: 0px;
+        font-size: 0.4em;
+    }
+
+    .choices {
+        max-height: 68vh;
+    }
+
+}
+

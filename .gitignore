@@ -1,0 +1,5 @@
+python/files/
+python/__pycache__
+web/files/
+
+.DS_Store
