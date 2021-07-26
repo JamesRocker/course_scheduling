@@ -1,6 +1,6 @@
 # Faculty Course Schedule Optimization Application
 
-<img src="images/final_schedule_3.png" width=100% />
+<img src="images/final_schedule_3.png" width=70% />
 
 <hr>
 
@@ -35,7 +35,7 @@ Red squares indicate that those two courses (in that row and column) must not ov
     For each semester, Simon's Rock College professors are assigned to teach a certain number of courses. They select the time blocks for each course that they are planning to teach and submit them using a physical green sheet.
 </p>
 <p>Example of Green Sheet</p>
-<img src="images/green_sheet.png" width=100% />
+<img src="images/green_sheet.png" width=60% />
 <p>
     This green sheet allows professors to select a maximum of two alternative time blocks per course. Before submitting the green sheets, professors discuss their time blocks at the division meeting. The blocks are then submitted to the division head for approval and later transfer to the Registrar.
 </p>
@@ -45,7 +45,7 @@ Red squares indicate that those two courses (in that row and column) must not ov
 <p>
     Example of course guide
 </p>
-<img src="images/src_course_guide.png" width=100% />
+<img src="images/src_course_guide.png" width=60% />
 
 <p>
     This entire process is quite inefficient and can be done better by using software. This optimization software helps to eliminate the time for having division meetings and helps to remove overlapping constraints.
