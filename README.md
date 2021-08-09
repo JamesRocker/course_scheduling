@@ -1,41 +1,41 @@
 # Faculty Course Schedule Optimization Application
 
-<img src="images/final_schedule_3.png" width=70% />
-
-<hr>
-
-## Summary
 <p>
     This application serves as an optimization tool for Simon's Rock College professors to build a high quality  course schedule with maximum satisfaction. Professors need to reconcile different time preferences and overlapping constraints, which are hard to accomplish manually. This application uses a method of stochastic optimization called Genetic Algorithm to solve this problem.
 </p>
 
 <hr>
 
-## Some Screenshots
-<img src="images/course_form.png" width=50% />
-<p>Professors can enter numerous number of courses that they want to teach</p><br>
+<img src="images/courses.gif" width=100% />
+<p>Professors can enter numerous number of courses that they want to teach</p>
 
-<img src="images/faculty_time.png" width=50% />
-<p>Professors can choose multiple time blocks without worrying about time overlaps </p><br>
+<hr>
 
+<img src="images/available_time.gif" width=100% />
+<p>Professors can choose multiple time blocks without worrying about time overlaps </p>
 
-<img src="images/student_constraint.png" width=50% />
+<hr>
+
+<img src="images/student_constraint.gif" width=100% />
 <p>The department head can choose which courses are restricted to be overlapped.</p>
 <p>
 Red squares indicate that those two courses (in that row and column) must not overlap. Blue squares tell that it is not preferable for those two courses to be overlapped but it can still overlap if it has to. Grey square shows the current selection.
 </p><br>
 
-<img src="images/high_quality_schedule.png" width=50% />
+<hr>
+
+<img src="images/high_quality_schedule.png" width=100% />
 <p>An example of high quality schedule that the software produces</p>
 
 <hr>
 
-## Why build it?
+
+## Motivation
 <p>
     For each semester, Simon's Rock College professors are assigned to teach a certain number of courses. They select the time blocks for each course that they are planning to teach and submit them using a physical green sheet.
 </p>
 <p>Example of Green Sheet</p>
-<img src="images/green_sheet.png" width=60% />
+<img src="images/green_sheet.png" width=100% />
 <p>
     This green sheet allows professors to select a maximum of two alternative time blocks per course. Before submitting the green sheets, professors discuss their time blocks at the division meeting. The blocks are then submitted to the division head for approval and later transfer to the Registrar.
 </p>
@@ -45,7 +45,7 @@ Red squares indicate that those two courses (in that row and column) must not ov
 <p>
     Example of course guide
 </p>
-<img src="images/src_course_guide.png" width=60% />
+<img src="images/src_course_guide.png" width=100% />
 
 <p>
     This entire process is quite inefficient and can be done better by using software. This optimization software helps to eliminate the time for having division meetings and helps to remove overlapping constraints.
